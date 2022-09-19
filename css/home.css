@@ -1,4 +1,127 @@
-.banner{
+
+.banner-picture{
+    padding-top: 90px;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.promo-bar{
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h2{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+.promo-list{
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.promo{
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.promo-img{
+    border: solid 3px #0096408F;
+    width: 182px;
+    height: 198px;
+}
+
+
+.promo-options{
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    text-align: left;
+    color: black;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+.promo-options2{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.destaque{
+    background-color: black;
+    position: relative;
+
+}
+.destaque-img{
+    width: 100%;
+    vertical-align: middle;
+    height: 588px;
+    padding-top: 10px;
+    
+}
+.promo-text{
+    position: absolute;
+    bottom: 200px;
+    background-color: rgba(0, 0, 0, 0.466);
+    right: 20px;
+    color: white;
+    padding: 20px;
+}
+
+.accessory-bar{
+    background-color: #0096408F;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.accessory-list{
+    text-align: center;
+    list-style: none;
+    padding: 10px;
+}
+.accessory{
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: white;
+}
+
+.accessory-img{
+    width: 182px;
+    height: 198px;
+    
+}
+
+.accessory-options{
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    text-align: left;
+    color: black;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+.accessory-options2{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+/*.banner{
     width: 100%; 
 }
 main img{
