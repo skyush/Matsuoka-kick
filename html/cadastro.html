@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/cadastro.css">
     <title>KickAss</title>
 </head>
 
@@ -18,8 +19,8 @@
                 <input type="text" id="pesquisa" name="pesquisa" placeholder="Pesquise aqui seu jogo">
             </form>
             <div class="icons">
-                <img id="user-icon" href="" src="../img/header_user.png">
-                <img id="cart-icon" href="" src="../img/header_carrinho.png">
+                <a href="../html/cadastro.html"> <img id="user-icon" src="../img/header_user.png"></a>
+                <a href="../html/carrinho.html"> <img id="cart-icon" href="" src="../img/header_carrinho.png"></a>
             </div>
         </div>
         
@@ -44,9 +45,51 @@
         </nav>
     </header>
     <main>
-        <section>
-            <p>inserir conteudos</p>
-        </section>
+        <img id="register-img" src="../img/cadastro_background.png" alt="Fundo tela cadastro">
+        <div class="container-register">
+            <div class="container-signin">
+                <h2>Ainda não é <br> cadastrado?</h2>
+                <form class="signin-form" action="#">
+                    <input id="form-input" type="text" id="name" placeholder="Nome:" required>
+                    <input id="form-input" type="email" id="email" placeholder="Email:" required>
+                    <input id="form-input" type="number" id="cpf" placeholder="CPF:" required>
+                    <input id="form-input" type="password" id="password" minlength="8" placeholder="Senha:" required>
+                    <input id="form-input" type="number" id="phone" placeholder="Tel:" required>
+                    <input id="form-input" type="text" id="address" placeholder="End:" required>
+                    <input id="form-input" type="text" id="addressnumber" placeholder="Nº:" required>
+                    <input id="form-input" type="number" id="zipcode" minlength="8" placeholder="CEP:" required>
+                    <button class="signin-button" type="submit">Cadastrar</button>
+                </form>
+            </div>
+            <div class="container-login">
+                <h3>Fazer login</h3>
+                <div class="login-img">
+                    <img id="login-img" src="../img/cadastro_perfil.png" alt="Perfil do usuário">
+                </div>
+                <form class="login-form" action="#">
+                    <input id="login-input" type="email" placeholder="Email:" required>
+                    <input id="login-input" type="password" minlength="8" placeholder="Senha:" required>
+                    <button class="login-button" type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </main>
 
     <footer id="footer-container">
