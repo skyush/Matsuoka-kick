@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
+
 }
 
 #menu{
@@ -82,12 +83,27 @@
     font-weight: bold;
 }
 
-
-.banner-picture{
+.slideshow-banner{
+    position: relative;
+    max-width: 100%;
+    height: auto;
     padding-top: 90px;
-    width: 100%;
-    vertical-align: middle;
 }
+
+.mySlides{
+    display: none;
+}
+
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade{
+    from{opacity: .4}
+    to {opacity: 1}
+}
+
+
 
 
 .nav-footer{
